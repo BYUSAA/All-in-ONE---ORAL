@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Registration Form</title>
+    <link rel="stylesheet" href="../CSS/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Event Registration</h1>
+        <form id="registrationForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <span id="nameError" class="error"></span>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <span id="emailError" class="error"></span>
+
+            <label for="phone">Phone Number:</label>
+            <input type="text" id="phone" name="phone" required>
+            <span id="phoneError" class="error"></span>
+
+            <label for="eventDate">Event Date:</label>
+            <input type="text" id="eventDate" name="eventDate" required>
+            <span id="dateError" class="error"></span>
+
+            <label for="tickets">Number of Tickets:</label>
+            <input type="number" id="tickets" name="tickets" required>
+            <span id="ticketError" class="error"></span>
+
+            <button type="submit">Register</button>
+            <div id="successMessage"></div>
+        </form>
+    </div>
+
+    <script src="../JavaScript/script.js"></script>
+</body>
+</html>

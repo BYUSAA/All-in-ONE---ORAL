@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Survey Form</title>
+    <link rel="stylesheet" href="../CSS/Style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Research Study Survey</h1>
+        <form id="surveyForm">
+            <!-- Age Input -->
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" min="18" max="100" required>
+            <span id="ageError" class="error"></span>
+
+            <!-- Email Input -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <span id="emailError" class="error"></span>
+
+            <!-- Feedback Input -->
+            <label for="feedback">Feedback:</label>
+            <textarea id="feedback" name="feedback" required></textarea>
+            <span id="feedbackError" class="error"></span>
+
+            <!-- Rating Input -->
+            <label for="rating">Rating (1-5):</label>
+            <input type="number" id="rating" name="rating" min="1" max="5" required>
+            <span id="ratingError" class="error"></span>
+
+            <!-- Survey Date Input -->
+            <label for="surveyDate">Survey Date (DD-MM-YYYY):</label>
+            <input type="text" id="surveyDate" name="surveyDate" placeholder="DD-MM-YYYY" required>
+            <span id="surveyDateError" class="error"></span>
+
+            <!-- Submit Button -->
+            <button type="submit">Submit</button>
+            <div id="successMessage"></div>
+        </form>
+    </div>
+    <script src="../JavaScript/Script.js"></script>
+</body>
+</html>

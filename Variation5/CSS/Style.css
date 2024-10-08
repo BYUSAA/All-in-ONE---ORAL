@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5; /* Light background */
+    color: #333; /* Dark text */
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 609px;
+    margin: auto;
+    background: #fff;  /* White background for the form */
+    padding: 54px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #4B3D3D; /* Dark mocha color for the header */
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #4B3D3D; /* Dark mocha color for labels */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #4B3D3D; /* Dark mocha border */
+    border-radius: 4px;
+}
+
+input[type="text"]:invalid,
+input[type="email"]:invalid,
+input[type="number"]:invalid {
+    border-color: #D9534F; /* Red border for invalid inputs */
+}
+
+.error {
+    color: #D9534F; /* Red color for error messages */
+    font-size: 0.9em;
+}
+
+.success {
+    color: #5CB85C; /* Green color for success messages */
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* Button Styles */
+button {
+    background-color: #4B3D3D; /* Dark mocha button background */
+    color: white; /* White text for the button */
+    border: none; /* Remove border */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+button:hover {
+    background-color: #5C4A4A; /* Slightly lighter on hover */
+}
