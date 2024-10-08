@@ -50,6 +50,10 @@ document.getElementById('surveyForm').addEventListener('submit', function (event
     if (isValid) {
         document.getElementById('successMessage').textContent = "Survey submitted successfully!";
     }
+    // Redirect after a delay (e.g., 3 seconds)
+    setTimeout(function() {
+        window.location.href = "/Variation5/HTML/Index.html"; // Update this to the actual path of Variation 2
+    }, 3000);
 });
 
 // Function to clear error messages
@@ -61,3 +65,4 @@ function clearErrors() {
     document.getElementById('surveyDateError').textContent = "";
     document.getElementById('successMessage').textContent = "";
 }
+

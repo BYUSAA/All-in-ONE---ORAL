@@ -51,6 +51,10 @@ document.getElementById('registrationForm').addEventListener('submit', function 
     if (isValid) {
         document.getElementById('successMessage').textContent = "Registration successful!";
     }
+    // Redirect after a delay (e.g., 3 seconds)
+    setTimeout(function() {
+        window.location.href = "/Variation2/HTML/index.html"; // Update this to the actual path of Variation 2
+    }, 3000);
 });
 
 // Function to clear error messages

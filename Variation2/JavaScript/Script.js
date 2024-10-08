@@ -60,6 +60,10 @@ document.getElementById('jobApplicationForm').addEventListener('submit', functio
     if (isValid) {
         document.getElementById('successMessage').textContent = "Application submitted successfully!";
     }
+    // Redirect after a delay (e.g., 3 seconds)
+    setTimeout(function() {
+        window.location.href = "/Variation3/HTML/Index.html"; // Update this to the actual path of Variation 2
+    }, 3000);
 });
 
 // Function to clear error messages

@@ -50,6 +50,10 @@ document.getElementById('subscriptionForm').addEventListener('submit', function 
     if (isValid) {
         document.getElementById('successMessage').textContent = "Subscription successful!";
     }
+    // Redirect after a delay (e.g., 3 seconds)
+    setTimeout(function() {
+        window.location.href = "/Variation4/HTML/Index.html"; // Update this to the actual path of Variation 2
+    }, 3000);
 });
 
 // Function to clear error messages
