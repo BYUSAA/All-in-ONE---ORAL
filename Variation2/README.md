@@ -30,6 +30,6 @@ This project features a job application form for a fictional company, designed t
 # All-in-ONE---ORAL
 Variation
 # GitHub--link
-https://github.com/BYUSAA/All-in-ONE---ORAL.git
+https://github.com/BYUSAA/All-in-ONE---ORAL/tree/main/Variation2
 # OWNER
 BYUSA M Martin De Poles

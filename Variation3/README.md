@@ -29,6 +29,6 @@ This project provides a subscription form for a fictional blog to gather user pr
 # All-in-ONE---ORAL
 Variation
 # GitHub--link
-https://github.com/BYUSAA/All-in-ONE---ORAL.git
+https://github.com/BYUSAA/All-in-ONE---ORAL/tree/main/Variation3
 # OWNER
 BYUSA M Martin De Poles

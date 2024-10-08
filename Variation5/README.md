@@ -30,6 +30,6 @@ This project features a checkout form for a fictional online store to facilitate
 # All-in-ONE---ORAL
 Variation
 # GitHub--link
-https://github.com/BYUSAA/All-in-ONE---ORAL.git
+https://github.com/BYUSAA/All-in-ONE---ORAL/tree/main/Variation5
 # OWNER
 BYUSA M Martin De Poles

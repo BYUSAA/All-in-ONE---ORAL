@@ -23,6 +23,6 @@ This project implements a registration form for a fictional event. The form coll
 # All-in-ONE---ORAL
 Variation
 # GitHub--link
-https://github.com/BYUSAA/All-in-ONE---ORAL.git
+https://github.com/BYUSAA/All-in-ONE---ORAL/tree/main/Variation1
 # OWNER
 BYUSA M Martin De Poles
